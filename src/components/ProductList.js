@@ -1,39 +1,13 @@
 import React from "react";
 import Product from "./Product";
+import PropTypes from "prop-types";
 
-const mainProductList = [
-  {
-    name: 'placeholder',
-    blend: 'placeholder',
-    origin: 'placeholder',
-    weight: "130",
-    price: "16.99",
-    discription: "Placeholder"
-  },
-  {
-    name: 'placeholder',
-    blend: 'placeholder',
-    origin: 'placeholder',
-    weight: "130",
-    price: "16.99",
-    discription: "Placeholder"
-  },
-  {
-    name: 'placeholder',
-    blend: 'placeholder',
-    origin: 'placeholder',
-    weight: "130",
-    price: "16.99",
-    discription: "Placeholder"
-  }
-];
-
-function ProductList(){
+function ProductList(props){
 
   return (
     <React.Fragment>
       <hr/>
-      {mainProductList.map((product, index) =>
+      {props.productList.map((product, index) =>
         <Product name={product.name}
           blend={product.blend}
           origin={product.origin}
@@ -66,5 +40,9 @@ function ProductList(){
   // </React.Fragment>
   //   );
 }
+
+ProductList.propTypes = {
+  productList: PropTypes.array
+};
 
 export default ProductList;
