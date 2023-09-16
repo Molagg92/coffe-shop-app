@@ -10,7 +10,9 @@ function NewProductForm(props){
       name: event.target.name.value, 
       origin: event.target.origin.value, 
       blend: event.target.blend.value, 
-      discription: event.target.discription.value, 
+      discription: event.target.discription.value,
+      weight: 130, 
+      price: 16.99,
       id: v4()
     });
   }
@@ -21,19 +23,19 @@ function NewProductForm(props){
         <input
           type='text'
           name='name'
-          placeholder='Pair Names' />
+          placeholder='Title/Name' />
         <input
           type='text'
           name='origin'
-          placeholder='origin' />
+          placeholder='Origin' />
         <input
           type='text'
           name='blend'
-          placeholder='blend' />
+          placeholder='Blend/Roast' />
         <textarea
           name='discription'
           placeholder='Give a discription.' />
-        <button type='submit'>Help!</button>
+        <button type='submit'>Add a Coffee Product!</button>
       </form>
     </React.Fragment>
   );
