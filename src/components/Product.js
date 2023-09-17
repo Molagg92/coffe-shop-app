@@ -10,7 +10,10 @@ function Product(props){
         <h6> price per pound : {props.price}</h6>
         <p><em>{props.description}</em></p>
       </div>
-      <button onClick={() => props.whenSellClicked(props.id)} type="submit">MakeSale!</button><span>   </span>
+      <button onClick={() => {
+    window.alert("Thank you for your purchase! Check the Details to see the weight go down!");
+    props.whenSellClicked(props.id);
+}} type="submit">Make Sale!</button><span>   </span>
         <hr/>
     </React.Fragment>
   );

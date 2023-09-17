@@ -71,7 +71,8 @@ class ProductControl extends React.Component {
   handleSellProductInList = (id) => {
     let newSellProductList = this.state.mainProductList;
     if(newSellProductList.filter(product => product.id === id)[0].weight >= 2){
-    newSellProductList.filter(product => product.id === id)[0].weight--;}
+    newSellProductList.filter(product => product.id === id)[0].weight--;
+  }
     else{
       newSellProductList.filter(product => product.id === id)[0].weight = 0;
     }

@@ -1,10 +1,34 @@
-# Getting Started with Create React App
+# _CaffineHouse_
+
+#### By _Erik Zambrano_
+
+#### _This is a small React Applicaton that tracks the weight of a list of coffee products a user can enter_
+
+## Technologies Used
+* JavaScript
+* React
+* NPM
+* HTML/CSS
+
+## Description
+
+_This was a mostly an excersize in what I have learned about JSX and React, a user can enjoy full CRUD with the list of coffee products, and thankfully there are no buggs that keep the application back, it works as intended_
+
+![Alt text](<Screenshot 2023-09-16 182326.png>)
 
 
-![Alt text](<src/img/Screenshot 2023-09-14 165248.png>)
+## Setup/Installation Requirements
+
+* _Open your termina and CD into the Desktop or main directory_
+* _`git clone https://github.com/Molagg92/coffe-shop-app.git` this command will clone this project on your machine, this is the link to my presonal repo from Github_
+* _`npm run install` will get the packages needed to run the program_
+* _After a few minutes, it will finish, finally you will run the command `npm run start`_
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_this Project offeres users full CRUD, It is a simple, small prject ment to showcase my understanding of the fundimentals of React._
+
+## Known Bugs
+_Thankfully There are no buggs in this application. Please let me know if any are discovered at `e92zambrano@outlook.com`_
 
 ## Available Scripts
 
@@ -72,3 +96,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## License
+
+MIT License
+
+Copyright (c) [2023] [Erik Z.]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+_If you run into any issues or have questions, ideas or concerns, please reach out to me via email: Molagg92@gmail.com.  Contributions to the code are highly encouraged._
