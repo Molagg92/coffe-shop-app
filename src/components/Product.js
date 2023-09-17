@@ -6,10 +6,8 @@ function Product(props){
     <React.Fragment>
       <div onClick = {() => props.whenProductClicked(props.id)}>
         <h3>{props.name} - {props.blend}</h3>
-        
-       
         <h6> price per pound : {props.price}</h6>
-        <p><em>{props.discription}</em></p>
+        <p><em>{props.description}</em></p>
         <hr/>
       </div>
     </React.Fragment>
@@ -22,7 +20,7 @@ Product.propTypes = {
   blend: PropTypes.string.isRequired,
   weight: PropTypes.number,
   price: PropTypes.number,
-  discription: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   id: PropTypes.string,
   whenProductClicked: PropTypes.func
 };

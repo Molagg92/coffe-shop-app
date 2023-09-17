@@ -10,7 +10,8 @@ function ProductDetail(props){
         <h6> from : {product.origin}</h6>
         <h6> weight : {product.weight}</h6>
         <h6> price : {product.price}</h6>
-        <p><em>{product.discription}</em></p>
+        <p><em>{product.description}</em></p>
+        <button onClick={ props.onClickingEdit }>Update Product</button>
         <button onClick={()=> onClickingDelete(product.id) }>Remove Coffe Product </button> { /* new code */ }
       <hr/>
     </React.Fragment>
@@ -19,7 +20,8 @@ function ProductDetail(props){
 
 ProductDetail.propTypes = {
   product: PropTypes.object,
-  onClickingDelete: PropTypes.func
+  onClickingDelete: PropTypes.func,
+  onClickingEdit: PropTypes.func
 };
 
 export default ProductDetail;

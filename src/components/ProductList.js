@@ -16,7 +16,7 @@ function ProductList(props){
           origin={product.origin}
           weight={product.weight}
           price={product.price}
-          discription={product.discription}
+          description={product.description}
           id={product.id}
           key={product.id}/>
       )}
