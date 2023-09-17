@@ -28,7 +28,7 @@ _This was a mostly an excersize in what I have learned about JSX and React, a us
 _this Project offeres users full CRUD, It is a simple, small prject ment to showcase my understanding of the fundimentals of React._
 
 ## Known Bugs
-_Thankfully There are no buggs in this application. Please let me know if any are discovered at `e92zambrano@outlook.com`_
+_There is unfortunatly 1 bug I was not able to fix. after a sale is made from a batch of coffee, updating the batch of coffe for any reason at all, will reset the weight on the bach of coffee, back to 130. Please let me know if any more are discovered at `e92zambrano@outlook.com`_
 
 ## Available Scripts
 
