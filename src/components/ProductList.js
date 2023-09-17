@@ -11,6 +11,7 @@ function ProductList(props){
       {props.productList.map((product) =>
         <Product
           whenProductClicked = { props.onProductSelection }
+          whenSellClicked = { props.onSell }
           name={product.name}
           blend={product.blend}
           origin={product.origin}
@@ -27,7 +28,8 @@ function ProductList(props){
 
 ProductList.propTypes = {
   productList: PropTypes.array,
-  onProductSelection: PropTypes.func
+  onProductSelection: PropTypes.func,
+  onSell: PropTypes.func
 };
 
 export default ProductList;

@@ -2,16 +2,30 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Product(props){
+  if (props.weight > 0) {
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenProductClicked(props.id)}>
+      <div onClick = {() => props.whenProductClicked(props.id, props.type)}>
         <h3>{props.name} - {props.blend}</h3>
         <h6> price per pound : {props.price}</h6>
         <p><em>{props.description}</em></p>
+      </div>
+      <button onClick={() => props.whenSellClicked(props.id)} type="submit">MakeSale!</button><span>   </span>
+        <hr/>
+    </React.Fragment>
+  );
+} else {
+  return (
+    <React.Fragment>
+      <div onClick = {() => props.whenProductClicked(props.id, props.type)}>
+        <h3>{props.name} - {props.blend}</h3>
+        <h6> price per pound : {props.price}</h6>
+        <p><em>Out of Stock!</em></p>
         <hr/>
       </div>
     </React.Fragment>
-  );
+    );
+  }
 }
 
 Product.propTypes = {

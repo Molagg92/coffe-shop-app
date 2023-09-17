@@ -11,7 +11,7 @@ function Header(){
     <div style={{ display: 'inline-block' }}>
       &#x1F480;
     </div>
-    
+    <br></br>
     <img src={IndexPhoto} alt="An pic of the coffee shop" />
     </React.Fragment>
   );
